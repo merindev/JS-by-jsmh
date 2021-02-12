@@ -1,3 +1,3 @@
 //This is a demo
 
-console.log("If i forgot js XD");
+console.log("Hello lets start over again");
