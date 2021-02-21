@@ -28,3 +28,26 @@ function greetUser(firstName,lastName){
     console.log(firstName + " " + lastName)
 }
 greetUser("Risalat Hasan","Merin")
+
+//Javascript operator
+
+let compare = 1
+console.log(compare>0)
+console.log(compare>=1)
+console.log(compare<=1)
+console.log(compare<0)
+
+let customer = 90;
+let typeofCustomer = customer >100 ? 'Gold':'Silver'
+console.log(typeofCustomer);
+
+let increment = 10;
+increment += 10;
+console.log(increment);
+
+let highIncome = false;
+let goodCredit = true;
+let eligibleForloan = highIncome && goodCredit;
+let refusedLoan =!eligibleForloan;
+console.log("Loan eligibility is "+eligibleForloan);
+console.log("Loan refused is "+ refusedLoan)
