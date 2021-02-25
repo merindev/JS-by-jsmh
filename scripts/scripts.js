@@ -51,3 +51,15 @@ let eligibleForloan = highIncome && goodCredit;
 let refusedLoan =!eligibleForloan;
 console.log("Loan eligibility is "+eligibleForloan);
 console.log("Loan refused is "+ refusedLoan)
+
+let defaultColor = undefined;
+let selectedColor = "blue";
+let currentColor = defaultColor || selectedColor
+console.log(currentColor);
+let colorA = "red";
+let colorB = "blue";
+let colorC = colorA;
+colorA = colorB
+colorB = colorC
+console.log(colorA)
+console.log(colorB)
