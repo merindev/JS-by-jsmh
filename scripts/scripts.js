@@ -63,3 +63,44 @@ colorA = colorB
 colorB = colorC
 console.log(colorA)
 console.log(colorB)
+
+//Javascript opeartor
+
+let hour = 23;
+
+if (hour >= 6 && hour < 12){
+    console.log("Good morning");
+}
+else if(hour >= 12 && hour <= 20){
+    console.log("Good Afternoon");
+}
+else if(hour >= 20 && hour <= 23){
+    console.log("Good Night");
+}
+
+//Switch & case
+
+let role = "Registered";
+switch(role){
+    case 'Guest':
+        {
+            console.log("Guest user");
+            break;
+        }
+    case 'Registered':
+        {
+            console.log("Registered User");
+            break;
+        }
+    default:
+        console.log("Unknown user")
+}
+if(role === "Guest"){
+    console.log("Guest user")
+}
+else if(role === "Registered"){
+    console.log("Registered user")
+}
+else {
+    console.log("Unknown user")
+}
