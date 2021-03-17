@@ -104,3 +104,6 @@ else if(role === "Registered"){
 else {
     console.log("Unknown user")
 }
+for(let i = 10; i >= 0 ; i--){
+   if(i%2 !== 0) console.log(i)
+}
