@@ -107,3 +107,18 @@ else {
 for(let i = 10; i >= 0 ; i--){
    if(i%2 !== 0) console.log(i)
 }
+let i = 0;
+while(i <= 10){
+    if(i%2 !== 0){
+        console.log(i)
+    }
+    i++ ;
+}
+let j = 0;
+do {
+    if(j%2 !== 0){
+        console.log(j)
+    }
+    i++ ;
+}
+ while(j <= 10)
