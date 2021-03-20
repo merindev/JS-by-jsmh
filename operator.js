@@ -19,3 +19,16 @@ let colors =["Red","Green","Blue","Yellow"]
 for(let index in colors){
     console.log(index,colors[index]);
 }
+let number = 0;
+do {
+    if(number%2 !== 0){
+        console.log(number)
+    }
+    number++
+}
+while(number <=20)
+
+let class =["Six","Seven","Eight"];
+for(let code in class){
+    console.log(code)
+}
