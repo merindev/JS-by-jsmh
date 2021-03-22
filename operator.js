@@ -28,7 +28,19 @@ do {
 }
 while(number <=20)
 
-let class =["Six","Seven","Eight"];
-for(let code in class){
-    console.log(code)
+let classes =["Six","Seven","Eight"];
+for(let code in classes){
+    console.log(code,classes[code])
+}
+
+let testingNumbers = ["One","Two","Three"];
+for(testingNumber of testingNumbers){
+    console.log(testingNumber)
+}
+
+let breakLoop = 0;
+while(breakLoop < 20){
+    if(breakLoop === 10) break;
+    console.log(breakLoop);
+    breakLoop++
 }
