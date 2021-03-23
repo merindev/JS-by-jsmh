@@ -44,3 +44,27 @@ while(breakLoop < 20){
     console.log(breakLoop);
     breakLoop++
 }
+
+let testNumber = max(1111,112)
+console.log(testNumber)
+function max(a,b){
+    return(a>b) ? a:b
+}
+let geoMetry = landsacpe(1000,500)
+console.log(geoMetry)
+function landsacpe(width,height){
+    return(width>height)
+}
+
+const output = fizBuzz(true)
+console.log(output)
+function fizBuzz(input){
+    if(input % 3 == 0 && input % 5 == 0) 
+    return 'FizBuzz'
+    if(input % 3 == 0)
+    return 'Fiz'
+    if(input % 5 == 0)
+    return 'Buzz'
+    if(input !== number)
+    return 'NaN'
+}
