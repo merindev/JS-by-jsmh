@@ -68,3 +68,21 @@ function fizBuzz(input){
     if(input !== number)
     return 'NaN'
 }
+
+checkSpeed(10)
+function checkSpeed(speed){
+    const speedLimit = 70;
+    const kmPerminuite = 5;
+    if(speed<speedLimit){
+        console.log("Speed is Okay!!!");
+    }
+    else{
+        let points = Math.floor((speed-speedLimit)/kmPerminuite)
+        if(points>=12){
+            console.log("License is suspended!!!");
+        }
+        else{
+            console.log('Points:',points);
+        }
+    }
+}
